@@ -885,8 +885,17 @@ body::before {
     background: linear-gradient(to bottom, transparent, rgba(5, 10, 20, 0.4));
 }
 
+.course-card.has-image .course-header,
+.course-card.has-image .course-footer {
+    text-align: center;
+}
+
+.course-card.has-image .course-meta {
+    justify-content: center;
+}
+
 .course-card.has-image .course-header {
-    padding-top: 1.5rem;
+    padding: 1.5rem 1.75rem 1rem;
 }
 
 .course-title {
@@ -916,6 +925,7 @@ body::before {
     font-size: 0.875rem;
     line-height: 1.6;
     margin-bottom: 0.75rem;
+    font-style: italic;
 }
 
 .course-meta {
@@ -923,6 +933,7 @@ body::before {
     gap: 1rem;
     font-size: 0.8rem;
     color: var(--text-muted);
+    font-style: italic;
 }
 
 .course-footer {
