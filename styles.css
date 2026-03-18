@@ -2164,17 +2164,22 @@ body::before {
     transform: scale(1.1);
 }
 
-/* Specific Fix for Track Logos Visibility */
+/* Specific Fix for Track Logos Visibility & Coverage */
 .featured-card .course-image-header,
 .explore-option .course-image-header {
-    background: rgba(255, 255, 255, 0.02); /* Slight background for contrast */
-    height: 200px; /* Slightly taller to accommodate full logo */
+    background: #fff; /* Match logo background for seamless coverage */
+    height: 220px; /* Taller area */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .featured-card .course-image-header img,
 .explore-option .course-image-header img {
-    object-fit: contain; /* Prevent cropping of text like 'FOUNDATION' */
-    padding: 1.5rem; /* Give it breathng room */
+    object-fit: contain; /* Full visibility of 'FOUNDATION' text */
+    width: 100%;
+    height: 100%;
+    padding: 0; /* Cover the whole area */
 }
 
 .plan-options {
