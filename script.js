@@ -147,7 +147,7 @@ const courses = {
             id: 7,
             title: "Prepress",
             category: "process",
-            icon: "📐",
+            icon: "assets/prepress.png",
             description: "Master the prepress process including plate design, preparation, and quality control.",
             level: "Intermediate",
             duration: "5 weeks",
