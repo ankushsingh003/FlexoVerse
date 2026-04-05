@@ -4,6 +4,7 @@
  * that evoke learning, precision, and industry — without distraction.
  */
 
+
 class FlexoBackground {
     constructor() {
         this.container = document.getElementById('canvas-container');
